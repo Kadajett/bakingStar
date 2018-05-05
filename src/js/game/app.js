@@ -4,7 +4,8 @@ var properties = require('./properties');
 var states = {
   boot: require('./states/boot.js'),
   preloader: require('./states/preloader.js'),
-  game: require('./states/main-menu.js')
+  game: require('./states/main-menu.js'),
+  level1: require('./states/level1.js'),
 };
 
 var game = new Phaser.Game(properties.size.x, properties.size.y, Phaser.AUTO, 'game');
